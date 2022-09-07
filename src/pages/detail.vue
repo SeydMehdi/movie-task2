@@ -139,6 +139,20 @@ const imdbLink = (movie) => {
         </div>
 
       </div>
+      <div class="m-5 mt-5">
+            <div class="">
+              <span class="font-bold text-2xl border-b-4 border-solid border-orange-400 px-5 pr-10">
+                Overview
+              </span>
+              <div class="border-b-2 mt-1 border-solid border-gray-100">
+
+              </div>
+            </div>
+            <div class="border-2 pt-10  border-gray-100 border-solid p-5">
+              {{movie.overview}}
+            </div>
+
+          </div>
     </div>
 
   </div>
